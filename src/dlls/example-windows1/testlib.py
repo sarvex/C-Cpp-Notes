@@ -134,8 +134,8 @@ class CPPInterfaceClass:
 
     # String representation 
     def __str__(self):
-        s   = "CInterfaceClass ; type = " + self.getType()
-        s +=  " - name =  " + self.getName() + "\n"
+        s = f"CInterfaceClass ; type = {self.getType()}"
+        s += f" - name =  {self.getName()}" + "\n"
         return s
 
     # Make class printable in the REPL
